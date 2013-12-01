@@ -8,11 +8,11 @@ defined('PH7') or exit('Restricted access');
 
 require '_inc/init.php';
 
-$sFirstName = (!empty($_POST['first_name'])) ? escape($_POST['first_name']) : '';
-$sLastName = (!empty($_POST['last_name'])) ? escape($_POST['last_name']) : '';
-$sEmail = (!empty($_POST['email'])) ? escape($_POST['email']) : '';
-$sUrl = (!empty($_POST['url'])) ? escape($_POST['url']) : '';
-$sHowHearAboutSoft = (!empty($_POST['how_hear_about_software'])) ? escape($_POST['how_hear_about_software']) : '';
+$sFirstName = (!empty($_POST['first_name'])) ? escape($_POST['first_name']) : null;
+$sLastName = (!empty($_POST['last_name'])) ? escape($_POST['last_name']) : null;
+$sEmail = (!empty($_POST['email'])) ? escape($_POST['email']) : null;
+$sUrl = (!empty($_POST['url'])) ? escape($_POST['url']) : null;
+$sHowHearAboutSoft = (!empty($_POST['how_hear_about_software'])) ? escape($_POST['how_hear_about_software']) : null;
 
 if ($_SERVER['REQUEST_METHOD'] == 'POST')
 {
