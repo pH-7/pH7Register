@@ -3,7 +3,8 @@
  * @title          Helper PDO Database Class
  *
  * @author         Pierre-Henry Soria <ph7software@gmail.com>
- * @copyright      (c) 2012-2013, Pierre-Henry Soria. All Rights Reserved.
+ * @copyright      (c) 2012-2014, Pierre-Henry Soria. All Rights Reserved.
+ * @link           http://github.com/pH-7/
  * @license        GNU General Public License <http://www.gnu.org/licenses/gpl.html>
  */
 defined('PH7') or exit('Restricted access');

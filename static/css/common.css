@@ -1,6 +1,7 @@
 /*
  * Author:        Pierre-Henry Soria <ph7software@gmail.com>
- * Copyright:     (c) 2012-2013, Pierre-Henry Soria. All Rights Reserved.
+ * Copyright:     (c) 2012-2014, Pierre-Henry Soria. All Rights Reserved.
+ * Link:          http://github.com/pH-7/
  * License:       CC BY <http://creativecommons.org/licenses/by/3.0/>
  */
 
@@ -47,15 +48,19 @@ footer {
   font-size: x-small;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .success {
   color: green;
 }
 
-.error, .mandatory {
+.warning, .error, .mandatory {
   color: red;
 }
 
-.success, .bold, .error {
+.success, .bold, .warning, .error {
   font-weight: bold;
 }
 

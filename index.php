@@ -1,7 +1,8 @@
 <?php
 /**
  * @author         Pierre-Henry Soria <ph7software@gmail.com>
- * @copyright      (c) 2013, Pierre-Henry Soria. All Rights Reserved.
+ * @copyright      (c) 2013-2014, Pierre-Henry Soria. All Rights Reserved.
+ * @link           http://github.com/pH-7/
  * @license        CC BY-NC-SA <http://creativecommons.org/licenses/by-nc-sa/3.0/>
  */
 define('PH7', 1);
@@ -25,6 +26,8 @@ require 'process_form.php';
         <section role="main" id="container">
             <?php if (!empty($sSuccess)): ?>
                 <p class="lic_msg success"><?php echo $sSuccess ?></p>
+                <p class="warning">Keep your key in a safe place, copy it onto the hard drive of your computer and on paper.<br />
+                Keep in mind that we will not give you a new key if you lose it, so be very careful!</p>
             <?php else: ?>
 
                 <?php if (!empty($sError)): ?>
@@ -67,6 +70,8 @@ require 'process_form.php';
                     <p><button type="submit" class="bold">Get a free license key!</button></p>
 
                 </form>
+                <p class="small italic">&bull; By completing this form you agree to receive occasional emails from us (new software version, security bug patch, news, ...).<br />
+                You may unsubscribe at any time by clicking on the link provided in each newsletter you will receive.</p>
 
             <?php endif ?>
         </section>

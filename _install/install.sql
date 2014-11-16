@@ -3,7 +3,8 @@
 -- Title:         SQL Core (base) Install File
 --
 -- Author:        Pierre-Henry Soria <ph7software@gmail.com>
--- Copyright:     (c) 2013, Pierre-Henry Soria. All Rights Reserved.
+-- Copyright:     (c) 2013-2014, Pierre-Henry Soria. All Rights Reserved.
+-- Link:          http://github.com/pH-7/
 -- License:       CC BY-NC-SA <http://creativecommons.org/licenses/by-nc-sa/3.0/>
 --
 --
